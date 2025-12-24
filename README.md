@@ -1,16 +1,52 @@
-# React + Vite
+# 🔐 PassVault – Credential Management Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassVault is a credential management web application built using **React.js** and **MongoDB**.  
+It allows users to securely store, view, and manage website credentials including URLs, usernames, and passwords through a clean and interactive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🌍 Frontend
+- Built using **React.js** with a modern, responsive UI
+- Animated action icons for copy, edit, and delete operations
+- Hover effects on interactive components to improve visual feedback and usability
+- Clickable website URLs that redirect directly to the saved site
+- Password visibility toggle for secure viewing
+- Clean table-based layout for easy credential management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔧 Backend & Data Handling
+- Credential data stored using **MongoDB** (managed locally via MongoDB Compass)
+- REST-style API integration for data operations
+- Secure handling of credential data during storage and retrieval
 
-## Expanding the ESLint configuration
+### 🔐 Security
+- Passwords are stored in **hashed format**
+- Copy-to-clipboard functionality retrieves the correct password when required
+- Edit and delete actions protected through controlled UI flows
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🗄️ Data Management
+- Supports **CRUD operations** for credentials:
+  - Create new credentials
+  - Read saved entries
+  - Update existing records
+  - Delete entries when no longer needed
+
+### 🔄 Storage Versions
+- Two implementations supported:
+  - **LocalStorage-based version** for client-side persistence
+  - **MongoDB-backed version** for database-driven storage
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS 
+- **Database:** MongoDB  
+- **Tools:** MongoDB Compass  
+- **APIs:** REST-style APIs
+
+---
+
+## 📌 Purpose
+This project was developed to gain hands-on experience in frontend development, secure data handling, database-backed applications, and API-driven workflows.
+
