@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="mycontainer flex justify-between items-center px-4 py-5 h-14">
 
       <div className="logo font-bold text-white text-2xl">
-        <img src="./favicon.png" alt="logo" className="inline w-9 mr-1" />
+        <img src="../favicon.png" alt="logo" className="inline w-9 mr-1" />
         <span className="pt-1">
         <span className="text-green-500"> &lt;</span>
         <span>Pass</span>
