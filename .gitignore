@@ -24,6 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# env files (can opt-in for committing if needed)
-.\Backend\.env*
-.env
+# Backend
+Backend/node_modules/
+Backend/.env*
