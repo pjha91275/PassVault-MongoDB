@@ -1,6 +1,6 @@
 # 🔐 PassVault – Credential Management Web Application
 
-PassVault is a credential management web application built using **React.js** and **MongoDB**.  
+PassVault is a credential management web application built using **React.js**, **Tailwind CSS** and **MongoDB**.  
 It allows users to securely store, view, and manage website credentials including URLs, usernames, and passwords through a clean and interactive interface.
 
 ---
